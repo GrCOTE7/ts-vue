@@ -1,23 +1,27 @@
 <template>
-	<h1 v-text="state.title"></h1>
-	<h2 v-text="state.subTitle"></h2>
+	<h1 v-text="title"></h1>
+	<h2 v-text="subTitle"></h2>
 
 	<button @click="editTitle('Hello world Edited')">Éditer title</button>
 	<button @click="editSubTitle('80')">Éditer subTitle</button>
 </template>
 
 <script setup lang="ts">
-import { reactive } from "vue";
+import { ref } from "vue";
 
-const state = reactive({
-	title: "Hello World!" as string,
-	subTitle: 90 as string | number,
-});
+// const state = reactive({
+// 	title: "Hello World!" as string,
+// 	subTitle: 90 as string | number,
+// });
+const title = ref<string>("Hello World!");
+const subTitle = ref<string|number>(90);
+
+console.log(title.value);
 
 const editTitle = (editTitle: string) => {
-	state.title = editTitle;
+	title.value = editTitle;
 };
 const editSubTitle = (editSubTitle: string | number) => {
-	state.subTitle = editSubTitle;
+	subTitle.value = editSubTitle;
 };
 </script>
