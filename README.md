@@ -1,4 +1,9 @@
+
+Video TypeScript :
 https://www.youtube.com/watch?v=7oZ4yXfD1bQ
+
+Vidéo HeadlessUI :
+https://www.youtube.com/watch?v=emaaaLcbk7w
 
 
 # ts-vue
