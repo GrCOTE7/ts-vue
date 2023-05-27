@@ -1,19 +1,4 @@
-Lunch TailWind CLI
-```
-npx tailwindcss -i ./src/assets/input.css -o ./dist/output.css --watch
-
-```
-Video TypeScript :
-https://www.youtube.com/watch?v=7oZ4yXfD1bQ
-
-Vidéo HeadlessUI :
-https://www.youtube.com/watch?v=emaaaLcbk7w
-
-Input-tags
-https://www.youtube.com/watch?v=EM-NYkORYo4&list=PLeeuvNW2FHViYC1RfSn4yegrXpOmdYWPt&index=4
-
-
-# ts-vue
+# input-tags
 
 This template should help get you started developing with Vue 3 in Vite.
 
