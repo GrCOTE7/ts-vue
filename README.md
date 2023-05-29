@@ -1,4 +1,22 @@
-# input-tags
+Lunch TailWind CLI
+```
+npx tailwindcss -i ./src/assets/input.css -o ./dist/output.css --watch
+```
+
+Video TypeScript :
+https://www.youtube.com/watch?v=7oZ4yXfD1bQ
+
+Vidéo HeadlessUI :
+https://www.youtube.com/watch?v=emaaaLcbk7w
+
+Input-tags
+https://www.youtube.com/watch?v=EM-NYkORYo4&list=PLeeuvNW2FHViYC1RfSn4yegrXpOmdYWPt&index=4
+
+Vitest
+https://www.youtube.com/watch?v=AqOTGi9UVLY&list=PLeeuvNW2FHViYC1RfSn4yegrXpOmdYWPt&index=9
+
+---
+# vitest
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -37,4 +55,10 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+### Run Unit Tests with [Vitest](https://vitest.dev/)
+
+```sh
+npm run test:unit
 ```
